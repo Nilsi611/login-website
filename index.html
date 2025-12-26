@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video src="MoonVid.mp4"></video>
+
+<div class="container">
+  <div class="glass-box">
+    <h2 id="title">Sign Up</h2>
+
+    <input id="email" type="email" placeholder="E-Mail">
+    <input id="password" type="password" placeholder="Passwort">
+
+    <button onclick="signUp()">Sign Up</button>
+    <button onclick="login()">Log In</button>
+
+    <p id="message"></p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="script.js"></script>
+</body>
+</html>
